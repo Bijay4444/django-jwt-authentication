@@ -1,0 +1,34 @@
+# Ignore the virtual environment directory
+venv/
+
+# Ignore the Django database file (if using SQLite)
+#db.sqlite3
+
+# Ignore any compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore other temporary or editor-specific files
+*.swp
+*.swo
+*.pyc
+*.pyo
+*.~lock.*
+
+# Ignore local settings file (if any)
+project/settings/local.py
+
+# Ignore log files (if any)
+logs/
+
+# Ignore media and static files (if you are using a cloud storage service)
+media/
+static/
+
+# Ignore any sensitive or secret files (e.g., config files with API keys or passwords)
+config.ini
+secrets.json
+
+# Ignore other files or directories that are not relevant to the project
+
+# Add your own custom ignore rules as needed
