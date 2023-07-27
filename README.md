@@ -26,7 +26,13 @@ This project is a Django Rest Framework (DRF) API that allows users to register,
 - `POST /api/login/`: Login and obtain access and refresh tokens.
 - `POST /api/logout/`: Logout and invalidate the token.
 
+## API Testing Using curl operations:
+- Rgister: curl -X POST http://127.0.0.1:8000/api/register/ -d "name=Bijay&email=bij@gmail.com&phone_number=09230932&password=keytosuce33"
+- login : curl -X POST http://127.0.0.1:8000/api/login/ -d "email=bij@gmail.com&password=keytosuce33"
+- logout: curl -X POST http://127.0.0.1:8000/api/logout/ -d "refresh_token=<your_refresh_token>"
+
+## To make the test easier I have already made tests.py to carry out the test in api
 
 ## Contact
 
-For any questions or feedback, please contact bk006822@gmail.com
+For any questions or feedback, don't hesitate to get in touch with bk006822@gmail.com
