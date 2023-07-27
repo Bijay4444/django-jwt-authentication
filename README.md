@@ -19,6 +19,8 @@ This project is a Django Rest Framework (DRF) API that allows users to register,
 3. Run the Django development server:
    python manage.py runserver
 
+4. Test the API using tests.py
+   python manage.py test api
    
 ## API Endpoints
 
@@ -32,6 +34,7 @@ This project is a Django Rest Framework (DRF) API that allows users to register,
 - logout: curl -X POST http://127.0.0.1:8000/api/logout/ -d "refresh_token=<your_refresh_token>"
 
 ## To make the test easier I have already made tests.py to carry out the test in api
+  python manage.py test api
 
 ## Contact
 
