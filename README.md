@@ -19,7 +19,7 @@ This project is a Django Rest Framework (DRF) API that allows users to register,
 3. Run the Django development server:
    python manage.py runserver
 
-4. Test the API using tests.py
+4. Test the API using tests.py:
    python manage.py test api
    
 ## API Endpoints
