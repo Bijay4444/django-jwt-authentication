@@ -1,5 +1,5 @@
 # Ignore the virtual environment directory
-venv/
+#venv/
 
 # Ignore the Django database file (if using SQLite)
 #db.sqlite3
