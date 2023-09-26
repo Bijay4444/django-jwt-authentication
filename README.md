@@ -1,6 +1,3 @@
-# django-jwt-authentication
-This repository was made for task given for me as intern selection 
-
 # Django JWT Authentication API
 
 This project is a Django Rest Framework (DRF) API that allows users to register, login, and logout using JWT Token authentication. The tokens have a short lifespan and expire every 5 minutes.
